@@ -18,9 +18,9 @@ function plotData(map, data) {
 function init() {
 	var map = L.map('map', {
 	    center: [51.505, -0.09],
-	    zoom: 13
+	    zoom: 50
 	});
-	map.setView([51.505, -0.09], 13);
+	map.setView([51.505, -0.09], 2);
 	console.log('running')
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
